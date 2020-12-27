@@ -1,4 +1,3 @@
-import React, { useState} from 'react';
 import Linkify from 'react-linkify';
 import './AllDeals.css'
 
