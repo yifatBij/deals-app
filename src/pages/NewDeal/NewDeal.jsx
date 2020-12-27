@@ -3,8 +3,8 @@ import JSONInput from 'react-json-editor-ajrm';
 import locale    from 'react-json-editor-ajrm/locale/en';
 import JSONPretty from 'react-json-pretty';
 
-import dealService from '../../dealService';
-import { NEW_DEAL_SAMPLE } from '../../consts';
+import dealService from '../../services/dealService.js';
+import { NEW_DEAL_SAMPLE } from '../consts';
 
 import 'react-json-pretty/themes/monikai.css';
 import './NewDeal.css';
