@@ -5,24 +5,26 @@ import AllDeals from './AllDeals'
 const AllDealsContainer = () => {
   const [isLoading, setLoading] = useState(true)
   const [deals, setDeals] = useState([])
+  const [error, setError] = useState()
   const [tableHeaders, setTableHeaders] = useState([])
 
    useEffect(() => {
-     async function getDeals() {
-         const reponse = await dealService.getDeals();
-         const { deals, tableHeaders} = reponse.data
-         setLoading(false)
-         setDeals(deals);
-         setTableHeaders(tableHeaders)
-
-     }
-     getDeals();
-  }, [])
+         dealService.getDeals().then(({data}) =>{
+          const { deals, tableHeaders} = data;
+          setLoading(false)
+          setDeals(deals);
+          setTableHeaders(tableHeaders)
+         }, (error) => {
+          setLoading(false)
+          setError(error.toString())
+         })
+     }, [])
 
    if(isLoading){
       return 'AllDeals - loading...'
-    }else{
-      
+   }else if(error){
+      return error
+   }else{
     return <AllDeals tableHeaders={tableHeaders} data={deals}/>
   }
  }
