@@ -1,0 +1,15 @@
+.rowC{
+	display:flex; 
+	flex-direction:row;
+}
+
+.submit{
+	background: navy;
+	color: white;
+	min-width: 100px;
+	max-width: 100px;
+	max-height: 170px;
+	border: none;
+	cursor: pointer;
+}
+.submit:disabled{opacity: 0.6;color: blue;}
