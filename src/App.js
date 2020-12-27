@@ -1,13 +1,13 @@
 import './App.css';
-import AllDeals from './pages/AllDeals'
-import NewDeal from './pages/NewDeal'
+import Main from './main'
+import Navbar from './Navbar'
 
 
 function App() {
   return (
     <div className="App">
-      <NewDeal/>
-      <AllDeals/>
+      <Navbar />
+      <Main />
     </div>
   );
 }
