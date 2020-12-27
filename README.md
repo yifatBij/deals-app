@@ -2,7 +2,7 @@
 
 You can see the app at https://yifatbij.github.io/demo-app/
 
-Guide line:
+# Guide line:
 
 Handle errors
 Give indication for proccessing
@@ -17,9 +17,8 @@ Load all deals at the homepage
 
 ## Packages in used
 
-    axios - for restApi
+    axios: for restApi
     react-json-editor-ajrm: For JSON Editor
     react-json-pretty: render the result of Create deal result
-    react-linkify: At render deals list check if show links as link,
-    react-router-dom: navbar router,
-
+    react-linkify: At render deals list check if show links as link
+    react-router-dom: navbar router
