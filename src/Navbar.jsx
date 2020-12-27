@@ -3,7 +3,7 @@ const Navbar = () => {
     return(
         <nav className="navBar">
             <ul>
-                <li><NavLink exact to="/">All Deals</NavLink></li>
+                <li><NavLink exact to="/allDeals">All Deals</NavLink></li>
                 <li><NavLink to="/newDeal">Add Deal</NavLink></li>
             </ul>
         </nav>
