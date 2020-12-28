@@ -7,13 +7,18 @@ You can see the app at https://yifatbij.github.io/demo-app/
 Handle errors
 Give indication for proccessing
 Do everything generic as possible
-
+Use the tiniest package if possible
 Navbar with links to the page.
 Load all deals at the homepage
 
-### npm install
+# Local environment
+1.Download or clone the repository to your local machine
+2.On the repository directory run: 
+## npm install
+3.Run: 
+## npm start
 
-### npm start
+
 
 ## Packages in used
 
