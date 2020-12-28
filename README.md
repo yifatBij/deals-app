@@ -21,11 +21,11 @@ Load all deals at the homepage.
 
 2. On the repository directory run: 
 
-#npm install 
+   #### npm install 
 
 3. Run: 
 
-#npm start
+   #### npm start
 
 
 
