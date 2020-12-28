@@ -22,3 +22,8 @@ Load all deals at the homepage
     react-json-pretty: render the result of Create deal result
     react-linkify: At render deals list check if show links as link
     react-router-dom: navbar router
+
+# Optional future features:
+All deals - get columns order and title mapping from the api.
+Add download button to all deals
+Improve the UI of the loaders
