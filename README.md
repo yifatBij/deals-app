@@ -4,19 +4,28 @@ You can see the app at https://yifatbij.github.io/demo-app/
 
 # Guide line:
 
-Handle errors
-Give indication for proccessing
-Do everything generic as possible
-Use the tiniest package if possible
+Handle errors.
+
+Give indication for proccessing.
+
+Do everything generic as possible.
+
+Use the tiniest package if possible.
+
 Navbar with links to the page.
-Load all deals at the homepage
+
+Load all deals at the homepage.
 
 # Local environment
-1.Download or clone the repository to your local machine
-2.On the repository directory run: 
-## npm install
-3.Run: 
-## npm start
+1. Download or clone the repository to your local machine.
+
+2. On the repository directory run: 
+
+#npm install 
+
+3. Run: 
+
+#npm start
 
 
 
@@ -30,5 +39,9 @@ Load all deals at the homepage
 
 # Optional future features:
 All deals - get columns order and title mapping from the api.
-Add download button to all deals
-Improve the UI of the loaders
+
+Add download button to all deals.
+
+Improve the UI of the loaders.
+
+Add cache to all deals query
