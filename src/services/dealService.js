@@ -1,4 +1,5 @@
 import axios from 'axios'
+import dealsData from './allDeals.json'
 
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
 const REIGO_ORIGIN = 'https://reigo-staging-dot-reigo-inv.appspot.com'
@@ -11,12 +12,14 @@ const dealService = {
 	},
 
 	getDeals: () => { 
-		return axios.get('dealsInputs', {
-			transformResponse:[(data)=> {
-				const deals = JSON.parse(data).body
-				const tableHeaders = Object.keys(deals[0])
-				return {tableHeaders, deals};
-		}]})
+		// return axios.get('https://reigo-staging-dot-reigo-inv.appspot.com/swagger-ui.html#/deal-input-controller/getDealsInputUsingGET', {
+		// 	transformResponse:[(data)=> {
+		// 		const deals = JSON.parse(data).body
+		// 		const tableHeaders = Object.keys(deals[0])
+		// 		return {tableHeaders, deals};
+		// }]})
+		// {body: deals} = dealsData;
+		return Promise.resolve({data: {deals: dealsData["body"], tableHeaders: Object.keys(dealsData["body"][0])}})
 	}
 }
 
