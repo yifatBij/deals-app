@@ -7,7 +7,7 @@ import NewDeal from './pages/NewDeal';
 const Main = () => {
   return (
     <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path={["/allDeals", "/demo-app"]} component={AllDeals}></Route>
+      <Route exact path={["/allDeals", "/deals-app"]} component={AllDeals}></Route>
       <Route exact path='/newDeal' component={NewDeal}></Route>
     </Switch>
   );
