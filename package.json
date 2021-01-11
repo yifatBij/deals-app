@@ -1,6 +1,6 @@
 {
-  "name": "demo-app",
-  "homepage": "http://yifatbij.github.io/demo-app",
+  "name": "deals-app",
+  "homepage": "http://yifatbij.github.io/deals-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
