@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deals-app/static/css/main.239ba0f6.chunk.css",
-    "main.js": "/deals-app/static/js/main.589e0a4c.chunk.js",
-    "main.js.map": "/deals-app/static/js/main.589e0a4c.chunk.js.map",
+    "main.js": "/deals-app/static/js/main.89851ba9.chunk.js",
+    "main.js.map": "/deals-app/static/js/main.89851ba9.chunk.js.map",
     "runtime-main.js": "/deals-app/static/js/runtime-main.1b7d2a0b.js",
     "runtime-main.js.map": "/deals-app/static/js/runtime-main.1b7d2a0b.js.map",
     "static/css/2.727f3867.chunk.css": "/deals-app/static/css/2.727f3867.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.727f3867.chunk.css",
     "static/js/2.d0a0bda0.chunk.js",
     "static/css/main.239ba0f6.chunk.css",
-    "static/js/main.589e0a4c.chunk.js"
+    "static/js/main.89851ba9.chunk.js"
   ]
 }
